@@ -17,7 +17,10 @@ class Boat:
 
 
 if __name__ == '__main__':
-    car = Car(151, "km/h")
-    boat = Boat(77)
-    print(car)
+    boat = Boat(101)
+    car1 = Car(120, "mph")
+    car2 = Car(251, "km/h")
+    
     print(boat)
+    print(car1)
+    print(car2)
