@@ -1,3 +1,4 @@
+
 class Car:
     def __init__(self, speed, unit):
         self.speed = speed
@@ -17,10 +18,7 @@ class Boat:
 
 
 if __name__ == '__main__':
-    boat = Boat(101)
-    car1 = Car(120, "mph")
-    car2 = Car(251, "km/h")
-    
+    car = Car(120, "km/h")
+    boat = Boat(30)
+    print(car)
     print(boat)
-    print(car1)
-    print(car2)
